@@ -47,7 +47,7 @@ common_data:
       rev: "e27c46b"
     - type: git
       url: "https://github.com/aoscloud/meta-aos-rcar-gen4.git"
-      rev: "v1.0.0"
+      rev: "feature_multinode"
   # Common configuration options for all yocto-based domains
   conf: &COMMON_CONF
     - [SSTATE_DIR, "${TOPDIR}/../../../common_data/sstate"]
